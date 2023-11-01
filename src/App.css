@@ -1,0 +1,20 @@
+section{
+  padding: 2rem 0;
+}
+label {
+  margin: 0;
+  font-size: 28px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dotted black;
+  border-radius: 20px;
+  height: 10rem;
+  width: 10rem;
+  cursor: pointer;
+}
+input{
+  display: none;
+}
