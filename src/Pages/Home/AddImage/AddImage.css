@@ -1,5 +1,13 @@
-.image{
+.img_card{
   display: grid;
-  grid-template-columns: 2fr 90px;
-  gap: 30px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.img_card img{
+  height: 10rem;
+  width: 10rem;
 }

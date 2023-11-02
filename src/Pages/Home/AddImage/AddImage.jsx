@@ -16,25 +16,27 @@ const AddImage = () => {
   }
 
   return (
-    <section>
+    <section >
         <div className="img_card">
       {selectedImages &&
-        selectedImages.map((image, index )=> {
-          // <Images
-          // image={image}
-          // key={index}
-          // ></Images>
-         return(<div key={index} className="image">
-              <img src={image} alt="image" height="30px"/>
-         </div>) 
-        })
+        selectedImages.map((image, index )=> (
+          <Images
+          image={image}
+          key={index}
+          ></Images>)
+        
+        //  return(<div key={index} className="image">
+        //       <img src={image} alt="image"/>
+        //  </div>) 
+        )
       }
-    </div>
-    <label >
+      <label >
       Add Images
       <br/>
       <input type="file" name="images" onChange={onSelectFile} multiple accept="image/png, image/jpeg, image/webp"/>
     </label>
+    </div>
+  
     </section>
   );
 };
