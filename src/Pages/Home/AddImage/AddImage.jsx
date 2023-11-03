@@ -24,7 +24,6 @@ const AddImage = () => {
           image={image}
           key={index}
           ></Images>)
-        
         //  return(<div key={index} className="image">
         //       <img src={image} alt="image"/>
         //  </div>) 
