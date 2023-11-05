@@ -6,3 +6,8 @@ img{
 img:hover{
   background-color: gray;
 }
+.img_bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

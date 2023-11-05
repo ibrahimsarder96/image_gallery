@@ -1,9 +1,10 @@
 import "./Images.css";
-const Images = ({image, index}) => {
+const Images = ({image, index, thumbnail}) => {
    console.log(image);
   return (
-    <div className="">
-      <img src={image} alt={index+1} />
+    <div className="img_bg">
+    
+      <img src={thumbnail} alt={index+1} />
     </div>
   );
 };
