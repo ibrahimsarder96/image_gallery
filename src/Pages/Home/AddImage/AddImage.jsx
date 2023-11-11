@@ -18,7 +18,7 @@ const AddImage = () => {
   return (
     <section className="card h-8/4 justify-center items-center" >
      <div className="card w-8/12 bg-white shadow-2xl">
-     <div className="flex items-center justify-between">
+     <div className="flex items-center justify-between mx-10">
         <h1 className="text-2xl font-bold">Gallery</h1>
         <p className="text-2xl text-red-400">Delete</p>
       </div>
